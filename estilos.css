@@ -2,3 +2,12 @@ img{
     float: left;
     margin-right: 30px;
 }
+#uno{
+    margin: auto;
+    width: 80px;
+    height: 50px;
+    background-color: #15F430;
+    box-sizing: border-box;
+    padding-top: 20px;
+    border: 1px solid #333;
+}
