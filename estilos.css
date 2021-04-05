@@ -33,3 +33,22 @@ h1{
     text-align: justify;
     background-color: blue;
 }
+
+.p{
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+#noso{
+    margin-bottom: 20px;
+    width: 60%;
+    height: 60%;
+}
+
+#contac{
+    float: right;
+    width: 60%;
+    height: 60%;
+    margin-right: 90px;
+}
+
