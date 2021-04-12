@@ -19,3 +19,9 @@
     text-align: left;
 }
 
+.card{
+    float: left;
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
