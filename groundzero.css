@@ -25,3 +25,16 @@
     margin-left: 110px;
     margin-bottom: 20px;
 }
+
+#obra{
+    float: left;
+    margin-right: 30px;
+    width: 80vh;
+    height: 70vh;
+}
+
+#info{
+    font-family: sans-serif;
+    text-align: justify;
+    margin-right: 30px;
+}
