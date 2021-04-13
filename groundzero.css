@@ -12,11 +12,14 @@
 }
 #Foto{
     float: right ;
+    margin-left: 10px;
     margin-right: 35px;
 }
 #Texto{
+    margin-left: 30px;
+    font-family: sans-serif;
     block-size: auto;
-    text-align: left;
+    text-align: justify;
 }
 
 .card{
@@ -38,4 +41,9 @@
     font-family: sans-serif;
     text-align: justify;
     margin-right: 30px;
+}
+
+#texini{
+    background-color: black;
+    text-decoration: blanchedalmond;
 }
