@@ -51,3 +51,12 @@
     background-color: #FAAB16 ;
     text-align: justify;
 }
+
+.form-group{
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+#soporte{
+    float: right;
+}
