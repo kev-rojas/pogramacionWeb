@@ -25,6 +25,12 @@
                 form.password.value=="";
                 return false;
             }
+
+            if(form.name.value==0){
+                alert("El campo Nombre se encuentra vacio")
+                form.password.value=="";
+                return false;
+            }
         }
         
     </script>
@@ -75,6 +81,10 @@
     <center>
         <form name="form"  return validar();>
             <div class="form-group">
+                <label for="exampleInputPassword1">Nombre</label>
+                <input id="name" type="name" class="form-control" name="name" pattern="[a-z]+">
+            </div>
+            <div class="form-group">
               <label for="exampleInputEmail1">Correo Electrónico</label>
               <input id="email" type="email" class="form-control" name="email">
               <small id="emailHelp" class="form-text text-muted">Jamás compartiremos tu correo con terceros.</small>
@@ -83,10 +93,10 @@
               <label for="exampleInputPassword1">Contraseña</label>
               <input id="password" type="password" class="form-control" name="password" pattern="[a-z]+">
             </div>
-            <input type="submit" onclick="validar()" class="btn btn-primary" id="inicar" value="Iniciar Sesion">
+            <input type="submit" onclick="validar()" class="btn btn-primary" id="inicar" value="Crear Cuenta">
           </form>
           <br>
-        <input type="submit" class="btn btn-primary" id="registrar" value="Registrarse">
+
     </center>
     <br>
 
