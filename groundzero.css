@@ -19,8 +19,9 @@
     margin-left: 30px;
     font-family:monospace;
     block-size: auto;
-    text-align: justify;
+    text-align: justify;   
 }
+
 
 .card{
     float: left;
@@ -59,4 +60,16 @@
 
 #soporte{
     float: right;
+}
+
+#contacto{
+    background-color: #F7CB79 ;
+}
+
+#cmensaje{
+    height: 150px;
+}
+
+#nosotros{
+    background-color: #F9B940;
 }
