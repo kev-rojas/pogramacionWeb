@@ -59,12 +59,12 @@
     <center>
         <form name="form" class="formulario" onSubmit="return validar()">
             <div class="form-group">
-              <label for="exampleInputEmail1">Correo Electrónico</label>
+              <label for="exampleInputEmail1" id="texFor">Correo Electrónico</label>
               <input id="email" type="email" class="form-control" name="email">
               <small id="emailHelp" class="form-text text-muted">Jamás compartiremos tu correo con terceros.</small>
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Contraseña</label>
+              <label for="exampleInputPassword1" id="texFor">Contraseña</label>
               <input id="password" type="password" class="form-control" name="password" pattern="[a-z]+">
             </div>
             <input type="submit" onclick="validar()" class="btn btn-primary" id="inicar" value="Iniciar Sesion">

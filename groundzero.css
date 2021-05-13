@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata%27");
+@import url("http://fonts.googleapis.com/css?family=Tangerine");
+@import url("http://developer.mozilla.org/@api/deki/files/2934/=VeraSeBd.ttf");
+
 #Logo{
     margin-left: 30px;
 }
@@ -39,7 +43,7 @@
 }
 
 #info{
-    font-family:serif;
+    font-family: 'Crimson Pro', serif;
     text-align: justify;
     margin-right: 30px;
 }
@@ -72,4 +76,16 @@
 
 #nosotros{
     background-color: #F9B940;
+}
+
+#til{
+    font-family: 'Tangerine', serif;
+}
+
+#parra{
+    font-family: "Bitstream Vera Serif Bold", serif;
+}
+
+#texFor{
+    font-family: 'Crimson Pro', cursive;
 }
